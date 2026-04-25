@@ -1,4 +1,4 @@
-# 📚 Bibliotheca Arcana — Backend Setup Guide
+# 📚 Biblioteca De los Ecos — Backend Setup Guide
 
 ## Arquitectura
 
@@ -19,7 +19,7 @@ Firebase Auth ──── ID Token ────►  FastAPI Backend
 ## Estructura de archivos
 
 ```
-bibliotheca/
+biblioteca/
 ├── backend/
 │   ├── main.py                  # FastAPI app, CORS, routers
 │   ├── config.py                # Firebase Admin SDK init
@@ -69,9 +69,9 @@ bibliotheca/
 
 ```env
 VITE_FIREBASE_API_KEY=AIzaSy...
-VITE_FIREBASE_AUTH_DOMAIN=bibliotheca-arcana-xxxxx.firebaseapp.com
-VITE_FIREBASE_PROJECT_ID=bibliotheca-arcana-xxxxx
-VITE_FIREBASE_STORAGE_BUCKET=bibliotheca-arcana-xxxxx.appspot.com
+VITE_FIREBASE_AUTH_DOMAIN=biblioteca-xxxxx.firebaseapp.com
+VITE_FIREBASE_PROJECT_ID=biblioteca-xxxxx
+VITE_FIREBASE_STORAGE_BUCKET=biblioteca-xxxxx.appspot.com
 VITE_FIREBASE_MESSAGING_SENDER_ID=123456789
 VITE_FIREBASE_APP_ID=1:123456789:web:abcdef
 VITE_API_URL=http://localhost:8000/api/v1
